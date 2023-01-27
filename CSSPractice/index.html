@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CSS P Selector</title>
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+		<style>		
+			p {
+				text-align: center;
+				font-size: 24px;
+				
+			}
+      #first {
+				background-color: lightcoral;
+			}
+
+			#second{
+				background-color: lightseagreen;
+        text-align: left;
+			}
+
+			#third {
+        background-color: lightblue;
+        text-align: right;
+				font-size: 36px;
+			}
+		</style>
+	</head>
+	<body>
+		<p id = "first">This is the first paragraph.</p>
+		<p id = "second">This is the second paragraph!</p>
+		<p id = "third">And here's a third one!</p>
+    <p class="dark">This is a dark paragraph.</p>
+    <p class="light">This is a light paragraph.</p>
+    <p class="highlighted">This paragraph is highlighted.</p>
+    <p class="dark highlighted">This paragraph is dark and highlighted.</p>
+    <p class="light highlighted">This one is light and highlighted.</p>
+    <p style = "background-color:red; color:black; text-align:center"> This is the last paragraph</p>
+	</body>
+</html>
